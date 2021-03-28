@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<entity path="">
+	
+<state id="idle">
+		
+<mesh_ref ref="mesh"/>
+	
+</state>
+	
+<mesh_description id="mesh">
+		
+<src file=""/>
+		
+<mesh file="SignResearchDeposit_mesh.hgm"/>
+		
+<material file="SignDomeBonusTriboOrig_mat.mtl"/>
+		
+<bsphere value="0,0,50,1301"/>
+		
+<box min="-920,-920,50" max="920,920,50"/>
+
+
+<attach name="Top" spot_pos="0, 0, 5821"/>
+<attach name="Origin" spot_pos="0,0,0"/>
+
+<attach name="Autoattach" spot_note="att,TriboelectricScrubberSphere,show" spot_pos="0, 0,42"/>
+<attach name="Autolight" spot_note="emissive,intensity:180" spot_pos="0, 0, 42"/>
+<attach name="Max" spot_pos="0, 0, 60"/>
+<attach name="Min" spot_pos="0, 0, 15"/>
+attach name="Triboelectricscrubbersphere" spot_pos="0, 0, 42"/>
+
+<surf type="selection" points="0, 0, 0;0, 0, 0;0, 0, 0"/>
+
+<surf type="hex_shape" points="-798, -888, 0;-796, 918, 0;807, -884, 0"/>
+<surf type="hex_shape" points="-796, 918, 0;905, 986, 0;807, -884, 0"/>
+
+</mesh_description>
+
+</entity>
